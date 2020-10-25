@@ -1,0 +1,99 @@
+
+
+BUILDING A MODEL: 
+
+
+	- Predict ETA after Ride Request:
+		- 1,000,000 riders in seattle: 
+		- How do we know we have enough data: 
+		
+			- What I think of: 
+
+			- Solution: 
+				- Product Goal:
+					- Accuracy? 
+					- Reasonable? 
+				- How to evaluate a model: 
+					- Feature Set to Training size Ratio: 
+						- too many
+							- overfitting 
+							- inaccuracy: 
+					- Why do too many featuers lead to overfitting and inaccuracy?
+						- bigger dimension space
+						- fitting your parameters to the training data 
+						- find noise in training data 
+						- perform well on training but bad on test data 
+					- Baseline Models: 
+						- help us choose to increase data or increase feature set: 
+						- looking at accuracy while increasing data points (trends)
+						- if collect more data doesn't improve model:
+							then we need better features 
+
+
+	- Detecting Fraud: 
+
+
+		- What is an imbalanced dataset? 
+			- different classes ratio too different
+
+		- What is accurate data in fraud models? 
+
+		- How do you interpret a model for fraud? 
+
+		- What happens when you predict wrong and how do you deal with it? 
+
+		- What is low recall mean? 
+			- too many false negatives 
+			- banks loses money to fraud
+
+		- What is low precision? 
+			- too many false positives 
+			- bad customer experience 
+			- we think every transaction is fraud 
+
+		- Why are precision recall curve important here? 
+
+		- What are some good algorithms to deal with reweighing data? 
+
+		- What are good ways to deal with different costs of transactions? 
+
+		- What is smote? 
+			- synthetic minority oversampling technique
+			- randomly undersample overclassed 
+			- randomly generate synthetic minority using SMOTE 
+
+
+	- Food Delivery Times: 
+
+		- Food prep times at restaurants? 
+			- continuous so use regression 
+
+		- Why is bias important here? 
+			- food prep times versus predicted times 
+			- expected versus measured = bias in regression 
+
+			- What does being wrong here mean for business? 
+				- Cold food (delivery person is late model predicts late times) 
+				- Delivery person is waiting (model predicts low times)
+
+
+	- Search Algorithm Recall 
+
+		 - Without changing the algorithm:  
+
+			 - How do you improve product search? 
+
+			 - How do you increase recall? 
+			 	
+			 	- What is recall? 
+			 		 - proportion correct 
+
+			 	- Collaboratie Filtering 
+			 		- products use to be bought together 
+
+
+	- Booking Regression 
+
+		 - Predict Prices on Airbnb 
+
+		 - 
